@@ -1,0 +1,13 @@
+[35m
+
+[[93m[1mExplorabimus[35m] [35m[[93m[1m11:27:29[35m] [97m[1m------------------------------------------------------------
+[93m
+[35m
+[[92m[1mExplorabimus[35m] [35m[[92m[1m11:27:29[35m] [92m[22mOpen ports and services:[93m
+[35m[[93m[1mExplorabimus[35m] [35m[[93m[1m11:27:29[35m] [94m[22mOpen port:[92m [1m 80[93m
+[35m
+
+[[93m[1mExplorabimus[35m] [35m[[93m[1m11:27:29[35m] [97m[1m------------------------------------------------------------
+[93m
+[35m
+[[92m[1mExplorabimus[35m] [35m[[92m[1m11:27:29[35m] [92m[22mPort [1m80 [22mis open, indicating a potential web server. Let's perform a [1mdirectory scan...[93m
