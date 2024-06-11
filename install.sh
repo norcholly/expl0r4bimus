@@ -78,11 +78,11 @@ function install() {
     echo -e "\033[91m"
     readline_exists=$(pip3 show readline | grep -o "Name: readline")
     if [ -z "$readline_exists" ]; then
-        echo -e "\033[1m\033[92m[\033[95m$current_time\033[1m\033[92m] \033[1m\033[92m[\033[95mexpl0r4bimus\033[1m\033[92m] \033[95mIt seems that the 'readline' library is not installed on your machine. The library is being downloaded...\033[91m"
+        echo -e "\033[1m\033[92m[\033[95m$current_time\033[1m\033[92m] \033[1m\033[92m[\033[95mexpl0r4bimus\033[1m\033[92m] \033[95mIt seems that the 'Readline' library is not installed on your machine. The library is being downloaded...\033[91m"
         sudo pip3 install -q readline
-        echo -e "\033[1m\033[92m[\033[92m$current_time\033[1m\033[92m] \033[1m\033[92m[\033[92mexpl0r4bimus\033[1m\033[92m] \033[92m'readline' library successfully installed!\033[91m"
+        echo -e "\033[1m\033[92m[\033[92m$current_time\033[1m\033[92m] \033[1m\033[92m[\033[92mexpl0r4bimus\033[1m\033[92m] \033[92m'Readline' library successfully installed!\033[91m"
     else
-        echo -e "\033[1m\033[92m[\033[95m$current_time\033[1m\033[92m] \033[1m\033[92m[\033[95mexpl0r4bimus\033[1m\033[92m] \033[95m'readline' library is already in computer!\033[91m"
+        echo -e "\033[1m\033[92m[\033[95m$current_time\033[1m\033[92m] \033[1m\033[92m[\033[95mexpl0r4bimus\033[1m\033[92m] \033[95m'Readline' library is already in computer!\033[91m"
 
     fi
 
